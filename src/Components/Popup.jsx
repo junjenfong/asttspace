@@ -1,10 +1,10 @@
 function Popup({ isOpen, closePopup }) {
   return (
-    <div>
+    <div className="fixed inset-0">
       {isOpen && (
         <div
           onClick={closePopup}
-          className="absolute  h-full w-full bg-gray-900 bg-opacity-75 z-50 flex items-center justify-center"
+          className="relative  z-50 h-full w-full bg-gray-900 bg-opacity-75  flex items-center justify-center"
         >
           {/* <div className="relative ">
                     <span className="absolute top-4 right-4 bg-badge-green px-3 py-1 text-xs  text-white">
@@ -20,7 +20,6 @@ function Popup({ isOpen, closePopup }) {
             </button>
             <iframe
               src="https://www.youtube.com/embed/7oVJAw1RpLI"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               className="w-full h-64"
             ></iframe>
           </div>

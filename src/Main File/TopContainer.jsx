@@ -10,7 +10,7 @@ const TopContainer = () => {
     const form = e.target;
     const data = new FormData(form);
 
-    // Navigate to the results page and pass the form data as state
+    // pass data as state
     const formData = Object.fromEntries(data);
     navigateTo("/formData", {
       state: { formData, propertyType: currentType }

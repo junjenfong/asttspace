@@ -35,7 +35,7 @@ const BottomContainer = () => {
             <div className="absolute z-10 top-4 left-8">
               <img src="/src/assets/images/bottom.png" />
             </div>
-            <div className=" absolute top-[55%] -left-28  z-20 ">
+            <div className=" absolute top-[55%] -left-28 lg:-left-10">
               <div className="relative w-[500px] h-full">
                 <img
                   className="absolute top-0 left-0 h-80 z-10"
