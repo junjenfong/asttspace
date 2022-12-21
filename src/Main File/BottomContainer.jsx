@@ -29,20 +29,20 @@ const BottomContainer = () => {
             </button>
           </div>
           <div className="relative w-full col-span-2 ">
-            <div className=" absolute top-0 left-0 -ml-4 z-0 ">
+            <div className="w-full md:w-1/4 absolute top-0 left-0 -ml-4 z-0 ">
               <img src="/src/assets/images/Union 2.svg" />
             </div>
-            <div className="absolute z-10 top-4 left-8">
+            <div className="absolute w-full z-10 top-4 left-8">
               <img src="/src/assets/images/bottom.png" />
             </div>
-            <div className=" absolute top-[55%] -left-28 lg:-left-10">
+            <div className=" absolute xl:top-[53%] -left-28 2xl:top-[50%] ">
               <div className="relative w-[500px] h-full">
                 <img
-                  className="absolute top-0 left-0 h-80 z-10"
+                  className="absolute top-0 left-0  xl:h-60 2xl:h-96  z-10"
                   src="/src/assets/images/delux2.png"
                 />
                 <img
-                  className="absolute  left-44 top-24 h-28 z-20 cursor-pointer"
+                  className="absolute xl:left-28 xl:top-16 2xl:left-48 2xl:top-32  h-28 z-20 cursor-pointer"
                   src="/src/assets/images/play-button.svg"
                   onClick={() => openPopup()}
                 />
